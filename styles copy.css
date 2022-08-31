@@ -1,0 +1,248 @@
+
+
+
+body {
+    font-family: 'Uchen', serif;
+    background-color: #313131;
+    background-image: url("1000_F_311613999_sMHPqaxP6F9lTJKNbxQ1Z13OPREg8MDr.jpg");
+    
+    background-size: 500px
+    
+}
+.navbar{
+    min-height: 90px;
+}
+
+.carousel-item{
+    height: 40rem;
+    
+}
+
+.box2 {
+    background-color: #1414149c;
+    
+    /* backdrop-filter: blur( 1px ); */
+    border-radius: 1cm;
+    margin-top: 1cm;
+    margin-left: 4cm;
+    margin-right: 3cm;
+    
+    padding: 3cm;
+    position: absolute;
+    box-shadow: #0e0e0e65, 8px;
+    
+  }
+
+.texto-medio{
+    line-height: 57.6px;
+    text-align: start;
+}
+
+.d-block{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.che {
+   
+    opacity: calc(70%);
+    border-radius: 85cm;
+
+}
+/* CSS POrtfolio0 */
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(1px, 1px);
+    grid-gap: 5px ;
+    grid-auto-rows: 70px;
+    grid-auto-flow: row dense;
+    padding: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.galeria img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #ffffff;
+    border-radius: 1px;
+    transition: transform 0.3s ease-in-out;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.galeria img:hover {
+    filter: opacity(0.9);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.06);
+  }
+
+  .galeria {
+  
+    display: grid;
+    grid-template-columns: repeat(2, 0,5fr);
+    grid-gap: 5px ;
+    grid-auto-rows: 70px;
+    grid-auto-flow: row dense;
+    padding: 15px;
+    justify-content: center;
+  
+  }
+  
+  .galeria img {
+    width: 100%;
+    height: 100%;
+    grid-area: span 6 / span 3;
+    object-fit: cover;
+  }
+
+
+
+
+.galeria3 img{
+    display: flexbox;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    max-width: 500px;
+    align-items: star;
+    object-fit: contain;
+    padding-left: 5mm;
+    margin: auto;
+    
+
+    
+}
+.galeria3 img:hover {
+    filter: opacity(0.9);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.06);
+  }
+.galeria4 img{
+    display: flexbox;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    max-width: 300px;
+    align-items: star;
+    object-fit: contain;
+    padding-left: 5mm;
+    margin: auto;
+     }
+
+     .galeria4 img:hover {
+        filter: opacity(0.9);
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.06);
+
+         }
+
+.galeria5 img{
+    
+    display: grid;
+    justify-content:flex-start;
+    max-width: 500px;
+    align-content: left;
+    float: left;
+    margin-top: -5cm;
+    margin-left: -2cm;
+        
+
+}
+
+     .galeria5 img:hover {
+        filter: opacity(0.9);
+        transition: transform 0.3s ease-in-out;
+        /* transform: scale(1.06); */
+
+}
+
+.mb-2:link{
+    
+    text-decoration: none;
+}
+
+
+.galeria6 img{
+    display: flexbox;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    max-width: 200px;
+    align-items: star;
+    object-fit: contain;
+    padding-left: 5mm;
+    margin: auto;
+     }
+
+     .galeria6 img:hover {
+        filter: opacity(0.9);
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.06);
+
+         }
+
+
+.container img{
+    display: grid;
+    max-width: 50px;
+    justify-content: space-around;
+    
+}
+
+h1{
+    font-family: 'Uchen', serif;
+    color: #ffffff;
+    font-size: 17mm;
+}
+
+h3,h6{
+    font-family: 'Uchen', serif;
+    color: #ffffff;
+    size: 45px;
+}
+
+
+
+.navbar-brand img{
+    max-width: 200px;
+    margin-left: 2cm;
+}
+
+h4{
+    color: #ffffff;
+}
+
+
+.a{
+    color: aqua;
+}
+
+.bd-footer {
+    border-radius: 1cm;
+    display: flexbox;
+    justify-items: center;
+    
+}
+
+.list-unstyled{
+    margin-left: 1cm;
+    position: relative;
+}
+
+.box4{ 
+    text-align: start;
+}
+
+.container-fluid {
+    justify-content: center;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
